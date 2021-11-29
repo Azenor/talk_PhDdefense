@@ -2345,9 +2345,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="756.01385"
-     inkscape:cy="140.55124"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="521.26385"
+     inkscape:cy="338.54114"
      inkscape:document-units="px"
      inkscape:current-layer="g106684"
      showgrid="false"
@@ -2466,14 +2466,14 @@
              id="g106684"
              transform="translate(339.8325,330.25566)">
             <rect
-               style="opacity:0.7;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.74919248;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               style="opacity:0.7;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.91961455;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                id="rect8221-3-5-1-1"
-               width="202.6427"
-               height="44.311886"
-               x="-377.23727"
-               y="669.95782"
+               width="306.49921"
+               height="44.141464"
+               x="-394.65204"
+               y="670.04297"
                rx="0"
-               ry="32.637932" />
+               ry="32.512409" />
             <image
                style="stroke-width:2.95403433"
                width="53.688103"
@@ -2557,12 +2557,12 @@
                  sodipodi:role="line"
                  x="-683.50812"
                  y="331.75543"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';text-align:center;text-anchor:middle;fill:#4d4d4d"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';text-align:center;text-anchor:middle;fill:#4d4d4d"
                  id="tspan9259">Growth rate and </tspan><tspan
                  sodipodi:role="line"
                  x="-686.30365"
                  y="352.68091"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';text-align:center;text-anchor:middle;fill:#4d4d4d"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';text-align:center;text-anchor:middle;fill:#4d4d4d"
                  id="tspan14740">other biological rates</tspan></text>
             <path
                inkscape:connector-curvature="0"
@@ -2589,7 +2589,7 @@
                  sodipodi:role="line"
                  x="-518.65814"
                  y="342.40958"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';fill:#4d4d4d"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';fill:#4d4d4d"
                  id="tspan9259-9">Body mass</tspan></text>
             <path
                d="m -326.95544,285.07009 c -1.17385,3.09922 -6.62891,2.08853 -12.1894,-2.25232 -5.55903,-4.34082 -9.11868,-10.36355 -7.95131,-13.45487 1.17387,-3.10117 6.63033,-2.09049 12.18941,2.25038 5.55905,4.34087 9.11851,10.36359 7.9513,13.45681 z"
@@ -2902,7 +2902,7 @@
                  sodipodi:role="line"
                  x="-332.77539"
                  y="341.72211"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';fill:#4d4d4d"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';fill:#4d4d4d"
                  id="tspan9259-9-1">Productivity</tspan></text>
             <path
                style="fill:#6c5353"
@@ -3482,7 +3482,7 @@
                  sodipodi:role="line"
                  x="-45.537689"
                  y="340.65643"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';fill:#4d4d4d"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';fill:#4d4d4d"
                  id="tspan9259-9-1-6">Biodiversity</tspan></text>
             <path
                inkscape:connector-curvature="0"
@@ -3801,39 +3801,39 @@
             <text
                xml:space="preserve"
                style="font-style:normal;font-weight:normal;font-size:19.1318779px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="-534.81244"
-               y="529.05963"
+               x="-524.81244"
+               y="519.05963"
                id="text18177-8-7"
                sodipodi:linespacing="125%"><tspan
                  sodipodi:role="line"
-                 x="-534.81244"
-                 y="529.05963"
-                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';text-align:center;text-anchor:middle;fill:#4d4d4d"
-                 id="tspan9259-0">Structure &amp; Dyamics</tspan><tspan
+                 x="-524.81244"
+                 y="519.05963"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.49999809px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';text-align:center;text-anchor:middle;fill:#4d4d4d"
+                 id="tspan9259-0">Structure &amp; Dynamics</tspan><tspan
                  sodipodi:role="line"
-                 x="-534.81244"
-                 y="549.90845"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';text-align:center;text-anchor:middle;fill:#4d4d4d"
+                 x="-524.81244"
+                 y="547.0816"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.49999809px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';text-align:center;text-anchor:middle;fill:#4d4d4d"
                  id="tspan10904">Trophic regulation</tspan><tspan
                  sodipodi:role="line"
-                 x="-534.81244"
-                 y="570.83398"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';text-align:center;text-anchor:middle;fill:#4d4d4d"
+                 x="-524.81244"
+                 y="575.2066"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.49999809px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';text-align:center;text-anchor:middle;fill:#4d4d4d"
                  id="tspan10900">Biomass structure</tspan><tspan
                  sodipodi:role="line"
-                 x="-534.81244"
-                 y="591.75946"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.74039078px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';text-align:center;text-anchor:middle;fill:#4d4d4d"
+                 x="-524.81244"
+                 y="603.3316"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.49999809px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';text-align:center;text-anchor:middle;fill:#4d4d4d"
                  id="tspan10902">Stability</tspan></text>
             <rect
-               style="opacity:0.7;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.93575805;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               style="opacity:0.7;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.9926644;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                id="rect8221-3-5"
-               width="317.47073"
-               height="44.125324"
-               x="-479.78015"
-               y="-27.328255"
+               width="357.7189"
+               height="44.068417"
+               x="-487.75171"
+               y="-27.299801"
                rx="0"
-               ry="32.500526" />
+               ry="32.458611" />
             <text
                xml:space="preserve"
                style="font-style:normal;font-weight:normal;font-size:26.24400139px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3845,16 +3845,16 @@
                  id="tspan18179-6"
                  x="-464.93005"
                  y="1.3507311"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.96350098px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';fill:#ffffff">Scales and organisation levels</tspan></text>
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.96350098px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';fill:#ffffff">Scales and organisation levels</tspan></text>
             <rect
-               style="opacity:0.7;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.97194511;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               style="opacity:0.7;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.03052211;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                id="rect8221-3-5-1"
-               width="342.78064"
-               height="44.089134"
-               x="-483.70004"
-               y="159.05284"
+               width="385.85556"
+               height="44.030556"
+               x="-483.67075"
+               y="159.08212"
                rx="0"
-               ry="32.473869" />
+               ry="32.430725" />
             <text
                xml:space="preserve"
                style="font-style:normal;font-weight:normal;font-size:26.24400139px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3866,7 +3866,7 @@
                  id="tspan18179-6-4"
                  x="-468.86801"
                  y="187.7137"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.96350098px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';fill:#ffffff">Entangled effects of temperature</tspan></text>
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.96350098px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';fill:#ffffff">Entangled effects of temperature</tspan></text>
             <path
                inkscape:connector-curvature="0"
                id="path8283-0"
@@ -4104,7 +4104,7 @@
                  sodipodi:role="line"
                  x="-366.30557"
                  y="698.29352"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.49999809px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';fill:#ffffff"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.49999732px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans Bold';fill:#ffffff"
                  id="tspan9259-06">Food chain vs food webs</tspan></text>
           </g>
         </g>
