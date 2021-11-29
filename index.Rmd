@@ -171,12 +171,12 @@ Trophic control]
 
 .center[![](images/plan_metabolic_gradient_adaptation_var2bis.svg)
 
-Can allometric scaling alone explain the large scale variation in trophic control?]
+**Can allometric scaling alone explain the large scale variation in trophic control?**]
 
 ---
 # Latitudinal variation in trophic control
 
-.center[![](images/plan_metabolic_gradient_adaptation_var.svg)]
+.center[![](images/plan_metabolic_gradient_adaptation_var.png)]
 
 - Evolutionary processes might alter the relationship between biological rates and temperature at the population level
 - At large scale, other variables might affect trophic control : latitudinal gradient in species richness and body mass
@@ -188,7 +188,7 @@ Can allometric scaling alone explain the large scale variation in trophic contro
 
 <br>
 1. Are evolutionary processes important in determing the thermal dependence of biological rates?
-    - Thermal adaptation of growth rate in wild bacterial strains
+    - **Thermal adaptation of growth rate in wild bacterial strains**
 
 ---
 # What's on the menu?
@@ -198,9 +198,9 @@ Can allometric scaling alone explain the large scale variation in trophic contro
 <br>
 
 1. Are evolutionary processes important in determing the thermal dependence of biological rates?
-    - Thermal adaptation of growth rate in wild bacterial strains
+    - **Thermal adaptation of growth rate in wild bacterial strains**
 2. What is the temperture dependence of trophic control for a pair of consumer-resource?
-   - Theory on the temperature dependence of trophic control
+   - **Theory on the temperature dependence of trophic control**
 
 ---
 # What's on the menu?
@@ -251,7 +251,7 @@ How does this relationship vary under thermal adaptation?]
 
 .center[![:scale 70%](images/biological_rate_tpc4.svg)
 
-**Allometric scaling : increase in biological rates with temperature, strong kinetics constraints (fixed, non-evolvable parameters)**]
+**Allometric scaling : increase in biological rates with temperature, strong kinetic constraints (fixed, non-evolvable parameters)**]
 
 ---
 # Bacteria
@@ -297,9 +297,32 @@ How does this relationship vary under thermal adaptation?]
 ---
 # Metabolic theory : Hotter is better!
 
+<br>
 .center[
-![:scale 70%](images/thermo.svg)
+![:scale 60%](images/thermobis2.svg)]
 
+---
+# Metabolic theory : Hotter is better!
+
+<br>
+.center[
+![:scale 60%](images/thermobis3.svg)]
+
+---
+# Metabolic theory : Hotter is better!
+
+<br>
+.center[
+![:scale 60%](images/thermobis4.svg)]
+
+---
+# Metabolic theory : Hotter is better!
+
+<br>
+.center[
+![:scale 60%](images/thermobis1.svg)
+
+<br>
 **Increase in growth rate with temperature, no matter the temperature of evolution**]
 
 ---
@@ -337,7 +360,7 @@ Support for :
 - Metabolic theory : allometric scaling of growth rate
 
 <br>
-.center[Suggesting strong kinetics constraints on biological rates : assumption of a fixed relationship between temperature and biological rates across latitudes]
+.center[Suggesting strong kinetic constraints on biological rates : assumption of a fixed relationship between temperature and biological rates across latitudes]
 
 .cite[Allen et al [2002], Gilloly et al [2007]]
 
@@ -449,7 +472,7 @@ Describe consumer-resource systems and measure their dynamical properties such a
 ---
 # Activation energy = thermal sensitivity
 
-.pull-left[.center[![:scale 90%](images/BAfunction.png)]]
+.pull-left[.center[![:scale 90%](images/BAfunction2.png)]]
 
 .pull-right[
 <br><br>
@@ -470,7 +493,7 @@ $\huge b_i = b_{0_i}e^{-E_i/kT}$
 
 .center[λ describes the feedback of a trophic level on itself through its predators
 
-![:scale 80%](images/theoretical_frameworkbis.svg)]
+![:scale 80%](images/theoretical_framework1.png)]
 
 .cite[Barbier & Loreau [2019]]
 
@@ -488,7 +511,7 @@ $\huge b_i = b_{0_i}e^{-E_i/kT}$
 
 .center[Of biological rates
 
-![:scale 80%](images/theoretical_framework.svg)]
+![:scale 80%](images/theoretical_framework.png)]
 
 ---
 # Thermal mismatches in biological rates
@@ -502,7 +525,7 @@ Activation energy :
 
 $E_\lambda =  E_ϵ + 2(E_A-E_{D_2}) + E_{D_2} - E_{D_1}$
 
-.center[![:scale 40%](images/BAfunction_mismatch.png)]
+.center[![:scale 40%](images/BAfunction2.png)]
 
 ---
 # Database of activation energies
@@ -576,7 +599,7 @@ Which might also affect trophic control]
 ---
 # Method
 
-.center[![:scale 80%](images/schema_data.svg)]
+.center[![:scale 90%](images/schema_data.png)]
 <br>
 .cite[Albouy et al [2019], Irigoien et al [2014]]
 
@@ -600,31 +623,22 @@ Which might also affect trophic control]
 
 **Increase in top-down control toward the poles**]
 
-*Add schema BU vs TD on legend*
-
 ---
 # Latitudinal variation
 
-.center[**in trophic control**
-
-![:scale 40%](images/variables_latitude2_defense_lambda2.svg)
-
+.center[![:scale 45%](images/variables_latitude2_defense_lambda2.svg)
 Increase in top-down control toward the poles]
 
 ---
 # Latitudinal variation
 
-.center[**in explanatory variables**
-
-![:scale 40%](images/variables_latitude2_defense_lambda3.svg)
-
+.center[![:scale 45%](images/variables_latitude2_defense_lambda3.svg)
 Temperature and species richness peaks in the tropics, smaller body mass]
 
 ---
-# Relative contributions of the explanatory variables
+# Relative contributions
 
-.center[![:scale 40%](images/variables_latitude2_defense_lambda.svg)
-
+.center[![:scale 45%](images/variables_latitude2_defense_lambda.svg)
 **Trophic control is mainly driven by species richness**
 ]
 
@@ -669,8 +683,7 @@ class: inverse, center, middle
 1. Support for limited evolutionary processes but strong kinetic constraints
 
 --
-2. Derive a theory for the temperature dependance of trophic control
-   - Mainly driven by thermal mismatches in biological rates
+2. Derive a theory for the temperature dependence of trophic control
    - Increase in top-down control in aquatic systems
 
 --
@@ -713,9 +726,8 @@ Opposite effects of temperature :
 # Complexity of temperature effects
 
 .center[
-![:scale 70%](images/diagramOrgaLevel_anim_complex5.svg)
+![:scale 85%](images/diagramOrgaLevel_anim_complex5.svg)
 
-**Important to understand the entangled effects of temperature across scales** <br>
 **Explain latitudinal variation in food web dynamics** <br>]
 
 ---
@@ -730,7 +742,7 @@ Opposite effects of temperature :
 --
 <br>
 
-.center[**Changes are global : climate change but also biodiversity loss**]
+.center[**Global change : climate change & biodiversity loss (& ...)**]
 
 ---
 class: inverse
@@ -748,10 +760,10 @@ class: inverse
 - My supervisors Dominique and Michel
 - Jury members : Sophie, Marco and John P. Delong
 - Committee members : Marco and Arnaud
-- Amazing collaborators : Matthieu, Yuval, Nuria, Arnaud, Stéphanie
+- Great collaborators : Matthieu, Yuval, Nuria, Arnaud, Stéphanie
 - Lab mates in Sherbrooke and Moulis
-- Will and Steve for hosting me during my stay!
 - Housemates, friends and family
+- Will and Steve for hosting me during my stay!
 ]
 
 .pull-right1[
