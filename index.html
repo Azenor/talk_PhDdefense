@@ -9,22 +9,13 @@
     <link href="assets/animate.css-3.7.2/animate.xaringan.css" rel="stylesheet" />
     <link href="assets/tachyons-4.12.0/tachyons.min.css" rel="stylesheet" />
     <link href="assets/xaringanExtra-extra-styles-0.2.6/xaringanExtra-extra-styles.css" rel="stylesheet" />
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"bc58ad76be644c828b721e820d37c4df","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"f2749e4c92db4c70a75a7ae2d197cd32","expires":1}</script>
     <script src="assets/himalaya-1.1.0/himalaya.js"></script>
     <script src="assets/js-cookie-3.0.0/js.cookie.js"></script>
     <link href="assets/editable-0.2.6/editable.css" rel="stylesheet" />
     <script src="assets/editable-0.2.6/editable.js"></script>
     <link href="assets/panelset-0.2.6/panelset.css" rel="stylesheet" />
     <script src="assets/panelset-0.2.6/panelset.js"></script>
-    <script src="assets/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-    <link href="assets/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-    <script src="assets/datatables-binding-0.20/datatables.js"></script>
-    <script src="assets/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-    <link href="assets/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
-    <link href="assets/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
-    <script src="assets/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
-    <link href="assets/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
-    <script src="assets/crosstalk-1.2.0/js/crosstalk.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/v4-shims.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
@@ -43,481 +34,668 @@ class: middle, title-slide
 &lt;div class="lab-logo"&gt;&lt;/div&gt;
 &lt;!-- &lt;div class="uni-logo"&gt;&lt;/div&gt; --&gt;
 
-# Title of my talk template
+# Effects of temperature on trophic interactions
 
 &lt;hr width="65%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
+## A perspective across different time scales, spatial scales and organizational levels
 
-## My talk subtitle
+### Azenor Bideault &lt;br&gt; Dominique Gravel &amp; Michel Loreau
 
-### Willian Vieira, .small[PhD candidate &lt;br&gt; + Collaborators]
+&lt;br&gt;
+&lt;!-- [&lt;i class="fa fa-github fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; Azenor/talk_Econet2021](https://github.com/Azenor/talk_Econet2021) --&gt;
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[&lt;i class="fa fa-github fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; WillVieira/talkTemplate](https://github.com/willvieira/talkTemplate)
-
-[&lt;i class="fa fa-twitter fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; @WillVieira90](https://twitter.com/willvieira90)
-
----
-
-# Introduction
-
-- How to setup
-- Content
-- `xaringanExtra` extensions
-- JS libraries
+[&lt;i class="fa fa-twitter fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; @Azenor_Bideault](https://twitter.com/Azenor_Bideault)
 
 ---
-class: middle, center, inverse
+# Ecosystems vary in space
 
-# How to use it?
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
+&lt;br&gt;
+.center[
+![](images/world.svg)
+&lt;br&gt;
+Species are different...]
 
 ---
-# Workflow
+# Important gradients across latitudes
 
-It is recomended to install all (R packages 📦) dependencies:
+.center[
+![](images/map_expl_variables.svg)]
 
-```make
-make install
-```
-.font90[If you use other R packages for your presentation, add them to the `requeriments.yml` file]
+.cite[From Albouy et al [2019]]
+
+---
+class: center
+# Is there a latitudinal gradient in trophic interaction ?
+
+![](images/world3.svg)
+
+---
+# Importance of trophic interactions in ecosystem functioning
+
+.center[![:scale 60%](images/trophic_cascade_fish.png)
+![:scale 60%](images/trophic_cascade_wolf.png)
+&lt;br&gt;
+
+Trophic cascades : predators regulate herbivores, enhancing primary producers abundance
+.cite[Estes et al [2011]]]
+
+---
+# Trophic control
+
+.center[
+**Regulation through consumers or resources**
+
+![:scale 60%](images/trophic_control.svg)]
+
+&lt;br&gt;
+- Dynamical property of consumer-resource systems
+- Defined from species biological rates (e.g. interaction rate)
+
+---
+# Variation in trophic control across latitudes
+
+.center[![:scale 70%](images/biotic_interaction_map.svg)]
+
+- Predator-prey cycles in the arctic
+- Stronger herbivory and insect predation in the tropics
+
+.center[**What drives these variations in trophic control?**]
+
+.cite[Schemske et al [2009]]
+
+---
+class:middle, inverse, center
+# Does temperature drive a latitudinal gradient in trophic control?
+
+---
+# Temperature induces a major environmental gradient
+
+.center[![:scale 80%](images/map_temperature.jpg)]
+
+---
+# And affects many ecological processes
+
+.center[![:scale 60%](images/diagramOrgaLevel_anim1.svg)
+
+**Cell**
+
+Metabolic rate]
+
+---
+# And affects many ecological processes
+
+.center[![:scale 60%](images/diagramOrgaLevel_anim2.svg)
+
+**Individuals**
+
+Biological rates]
+
+---
+# And affects many ecological processes
+
+.center[![:scale 60%](images/diagramOrgaLevel_anim3.svg)
+
+**Populations**
+
+Biological rates]
+
+---
+# And affects many ecological processes
+
+.center[![:scale 60%](images/diagramOrgaLevel_anim.svg)
+
+**Communities**
+
+Trophic control]
+
+---
+# The metabolic view of the world
+
+.center[![](images/plan_metabolic_gradient_adaptation_var1bis.svg)]
+
+.center[**Allometric scaling of ecological processes**]
+
+.cite[Gillooly et al [2001], Brown et al [2004]]
+
+---
+# Latitudinal variation in trophic control
+
+.center[![](images/plan_metabolic_gradient_adaptation_var2bis.svg)
+
+Can allometric scaling alone explain the large scale variation in trophic control?]
+
+---
+# Latitudinal variation in trophic control
+
+.center[![](images/plan_metabolic_gradient_adaptation_var.svg)]
+
+- Evolutionary processes might alter the relationship between biological rates and temperature at the population level
+- At large scale, other variables might affect trophic control : latitudinal gradient in species richness and body mass
+
+---
+# What's on the menu?
 
 &lt;br&gt;
 
-Once dependencies are solved, you can server your presentation on local to be automatically updated while editing:
+.center[![](images/plan_metabolic.svg)]
 
-```make
-make server
-```
+&lt;br&gt;
 
-Finally, publish your final `html` presentation with:
-
-```make
-make
-```
+1. Thermal adaptation of growth rate in wild bacterial strains
 
 ---
-class: middle, center, inverse
+# What's on the menu?
 
-# Content
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
+&lt;br&gt;
 
----
-# Sections
+.center[![](images/plan_metabolic.svg)]
 
-Slides are separeted by `---`:
+&lt;br&gt;
 
-.code70[
-
-```markdown
----
-# My slide title
-
-Content here
+1. Thermal adaptation of growth rate in wild bacterial strains
+2. Theory on the temperature dependence of trophic control
 
 ---
-```
-]
+# What's on the menu?
 
-Title sections, like the previous slide, needs to specify the following classes:
+&lt;br&gt;
 
-.code70[
-```markdown
----
-class: middle, center, inverse
+.center[![](images/plan_metabolic.svg)]
 
-# Title of my section
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
+&lt;br&gt;
 
----
-```
-]
-
-.font80[
-You can use one of these classes in any slide if you want to:
-- Vertical center the content (`middle`)
-- Horizontal center the content (`center`)
-- Or inverse the background and text colours (`inverse`)
-]
+1. Thermal adaptation of growth rate in wild bacterial strains
+2. Theory on the temperature dependence of trophic control
+3. Drivers of latitudinal gradient in trophic control in fish food webs
 
 ---
-# Tables
+class: inverse, middle, center
+# Thermal adaptation of growth rate in wild bacterial strains
+
+---
+# Biological rates &amp; temperature
+
+.center[![:scale 70%](images/biological_rate_tpc1.svg)
+
+&lt;br&gt;
+For ectothermic organisms
+&lt;br&gt;
+
+How does this relationship vary under thermal adaptation ?]
+
+---
+# Local adaptation
+
+.center[![:scale 70%](images/biological_rate_tpc2.svg)
+
+**Biological rates are optimal at the local temperature**]
+
+---
+# Metabolic theory : hotter is faster ...
+
+.center[![:scale 70%](images/biological_rate_tpc3.svg)
+
+**Allometric scaling : increase in biological rates with temperature, strong kinetic constraints (fixed, non-evolvable parameters)**]
+
+---
+# Metabolic theory : ... and colder is slower
+
+.center[![:scale 70%](images/biological_rate_tpc4.svg)
+
+**Allometric scaling : increase in biological rates with temperature, strong kinetics constraints (fixed, non-evolvable parameters)**]
+
+---
+# Bacteria
+
+.center[Are useful for many things!
+
+![:scale 40%](images/biological_rates_temp_noBA_bacteria1.svg)
+
+&lt;br&gt;
+**Key role in many ecological processes**]
+
+- Fast reproduction &amp; small size
+- Easily culturable in the lab
+- Extrapolate results to other organisms
+
+.center[Experiment on thermal adaptation of growth rate in wild bacterial strains]
+
+---
+# Population growth rate
+
+&lt;br&gt;
+.center[A key biological process &amp; temperature dependent &amp; easily measurable
+
+&lt;br&gt;
+
+![:scale 70%](images/growth_rate_temp.svg)]
+
+---
+# Evolutionary experiment
+
+.center[![](images/bacteria_experiment1.svg)]
+
+---
+# Evolutionary experiment
+
+.center[![](images/bacteria_experiment2.svg)]
+
+---
+# Evolutionary experiment
+
+.center[![](images/bacteria_experiment.svg)]
+
+---
+# Metabolic theory : Hotter is better!
+
+.center[
+![:scale 70%](images/thermo.svg)
+
+**Increase in growth rate with temperature, no matter the temperature of evolution**]
+
+---
+# To sum-up : Hotter is better!
+
+.center[
+![:scale 70%](images/bact_result.svg)]
+
+&lt;br&gt;
+
+Support for :
+
+- Limited local adaptation
+- Allometric scaling of growth rate
+
+&lt;br&gt;
+.center[Suggesting strong kinetics constraints on biological rates : assumption of a fixed relationship between temperature and biological rates across latitudes (macroecology).]
+
+.cite[Allen et al [2002], Gilloly et al [2007]]
+
+---
+# From populations to consumer-resource interactions
+
+.center[![](images/plan_metabolic2.svg)
+
+&lt;br&gt;
+
+**How does the temperature dependence of population biological rates affect trophic control?**]
+
+---
+class: middle, inverse, center
+# Theory on the temperature dependence of trophic control
+
+---
+# How to measure trophic control?
+
+.center[
+![:scale 40%](images/theory.svg)
+
+**Models are useful**
+
+.font60[(more than bacteria?)]
+
+&lt;br&gt;
+Describe consumer-resource systems and measure their dynamical properties such as trophic control]
+
+---
+# Model of consumer-resource system
+
+`\begin{align}
+  \dfrac{dB_i}{dt} &amp;= \textrm{production} \\
+  \frac{dB_i}{dt} &amp;= g_iB_i
+\end{align}`
+
+&lt;br&gt;
 
 .pull-left[
-You can simply insert a markdown table:
-
-.font70[
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-]]
+- B biomass
+- g&lt;sub&gt;i&lt;/sub&gt; growth rate]
 
 .pull-right[
-Or you can use the `DT` R package for dynamic tables:
-
-.font70[
-
-```r
-DT::datatable(head(cars))
-```
-
-<div id="htmlwidget-a6ee0a6fd47e8797649c" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-a6ee0a6fd47e8797649c">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],[4,4,7,7,8,9],[2,10,4,22,16,10]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>speed<\/th>\n      <th>dist<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-]]
-
----
-# Figures
-
-Insert an image:
-
-```md
-![](images/model1.svg)
-```
-.center[
-  ![:scale 70%](images/model1.svg)
-]
-
----
-# Figures
-
-Scale the size of an image:
-
-```md
 ![:scale 60%](images/model1.svg)
-```
-.center[
-  ![:scale 40%](images/model1.svg)
 ]
 
 ---
-# Figures
+# Model of consumer-resource system
 
-Or simply code it:
-
-
-```r
-plot(cars$speed, cars$dist)
-```
-
-&lt;img src="index_files/figure-html/unnamed-chunk-3-1.png" width="504" style="display: block; margin: auto;" /&gt;
-
----
-# Figures
-
-Use the code chunck options to change the size of a plot :
-
-
-````
-```{r, fig.width = 4, fig.height = 2.5}
-plot(cars$speed, cars$dist)
-```
-````
-
-&lt;img src="index_files/figure-html/unnamed-chunk-5-1.png" width="288" style="display: block; margin: auto;" /&gt;
-
-.font90[
-  *You can check a full list of chunck options [here](https://yihui.org/knitr/options/)*
-]
-
----
-# Columns
-
-50/50 columns can be created with:
-
-.code90[
-
-```markdown
-.pull-left[
-  Content 1
-]
-.pull-right[
-  content 2
-]
-```
-
-.pull-left[
-For left larger columns:
-
-```markdown
-.pull-left1[
-  Content 1
-]
-.pull-right1[
-  content 2
-]
-```
-]
-.pull-right[
-Or right larger columns:
-
-```markdown
-.pull-left2[
-  Content 1
-]
-.pull-right2[
-  content 2
-]
-```
-]
-]
-
----
-# Text position
-
-Instead of using columns, you can define the content position with:
-
-
-.left[
-Left aligned
-
-```markdown
-.left[text here]
-```
-]
-
-.center[
-Center aligned
-
-```markdown
-.left[text here]
-```
-]
-
-.right[
-Right aligned
-
-```markdown
-.left[text here]
-```
-]
-
----
-# Text size
-
-And also text size:
-
-
-```markdown
-.fontX[
-  Content here
-]
-```
-
-Where `X` can be anything between `10` (.font10[very small]) and `200` (.font200[HUGE]) by an increent of `10`:
-
-.code70[
-
-```r
-print(seq(10, 200, 10))
-#  [1]  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180 190
-# [20] 200
-```
-]
-
----
-# Animation
-
-Using `--` between lines
-
---
-- you
-
---
-- can
-
---
-- animate
-
----
-# Math
-
-`\(\LaTeX\)` math expressions can be writen between `$$`:
-
-
-```markdown
-$$
-  \bar{X}=\frac{1}{n}\sum_{i=1}^nX_i
-$$
-```
-
-
-$$
-  \bar{X}=\frac{1}{n}\sum_{i=1}^nX_i
-$$
-
-
----
-# Citation
-
-This macro is just to easily insert text on the bottom of the slide:
-
-.code70[
-
-```markdown
-.cite[Talluto et al. [2017](https://link) Nat. Ecol. Evol.]
-```
-]
-
-.center[![:scale 70%](images/Talluto1.png)]
-
-.cite[Talluto et al. [2017](https://www.nature.com/articles/s41559-017-0182) Nat. Ecol. Evol.]
-
----
-# Icons
-
-You can use both [Font awesome](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/) icons
-
-.pull-left[
-Font awesome icons (`faic`)
-
-
-```markdown
-![:faic](pagelines)
-```
-![:faic](pagelines) 
-]
-.pull-right[
-Academic icons (`acid`)
-
-
-```markdown
-![:acic](orcid)
-```
-![:acic](orcid)
-]
+`\begin{align}
+  \dfrac{dB_i}{dt} &amp;= \textrm{production} - \textrm{predation losses} \\
+  \frac{dB_i}{dt} &amp;= g_iB_i + \epsilon A_{ij} B_iB_j - A_{ki} B_iB_k
+\end{align}`
 
 &lt;br&gt;
-You can also ajust their size with the following argument:
 
+.pull-left[
+- B biomass
+- g&lt;sub&gt;i&lt;/sub&gt; net growth rate
+- A&lt;sub&gt;ij&lt;/sub&gt; interaction matrix
+- *ϵ* conversion efficiency]
 
-```markdown
-![:faic 2](pagelines)
-```
-![:faic 2](pagelines) 
-
----
-class: middle, center, inverse
-
-# 📦 `{xaringanExtra}`
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
-
----
-# `{xaringanExtra}`
-
-This awesome R package provides enhancements for xaringan such as
-
-&gt; - Add an overview of your presentation with tile view
-&gt; - Make your slides editable
-&gt; - Announce slide changes with a subtle tone
-&gt; - Animate slide transitions with animate.css
-&gt; - Add tabbed panels to slides with panelset
-&gt; - Add a logo to all of your slides with logo
-&gt; - Use the Tachyons CSS utility toolkit
-&gt; - Add a live video feed of your webcam
-&gt; - Fit your slides to fill the browser window
-&gt; - Add extra CSS styles
-
-Take a look in their full documentation [here](https://pkg.garrickadenbuie.com/xaringanExtra/#/)
-
-I added some examples in the following slides...
-
----
-# `{xaringanExtra}` tile view
-
-Press the letter "o" 😲
-
----
-# `{xaringanExtra}` Editable slides
-
-Just use the following class:
-
-
-```markdown
-.can-edit[ ... ]
-```
-
-What do you think?
-
-.can-edit[
-  -
+.pull-right[
+![:scale 60%](images/model2.svg)
 ]
 
 ---
-# `{xaringanExtra}` Panelset
+# Model of consumer-resource system
 
-.panelset[
-.panel[.panel-name[Code]
+`\begin{align}
+  \dfrac{dB_i}{dt} &amp;= \textrm{production} - \textrm{predation losses} \\
+  \frac{dB_i}{dt} &amp;= g_iB_i + \epsilon A_{ij} B_iB_j - A_{ki} B_iB_k
+\end{align}`
 
-```r
-x = rnorm(100, 10, 4)
-y = rnorm(100, 2, 1)
-```
+&lt;br&gt;
+
+.pull-left[
+- B biomass
+- g&lt;sub&gt;i&lt;/sub&gt; net growth rate
+- A&lt;sub&gt;ij&lt;/sub&gt; interaction matrix
+- *ϵ* conversion efficiency]
+
+.pull-right[
+![:scale 60%](images/model3.svg)
 ]
-
-.panel[.panel-name[Plot]
-
-```r
-plot(x, y)
-```
-
-&lt;img src="index_files/figure-html/unnamed-chunk-21-1.png" width="504" style="display: block; margin: auto;" /&gt;
-]
-
-.panel[.panel-name[How?]
-
-```markdown
-.panelset[
-  
-  .panel[.panel-name[Code]
-    ...
-  ]
-
-  .panel[.panel-name[Plot]
-    ...
-  ]
-]
-```
-]
-]
-
 
 ---
-class: middle, center, inverse
+# Model of consumer-resource system
 
-# ![:faic](js) libraries
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
+`\begin{align}
+  \dfrac{dB_i}{dt} &amp;= \textrm{production} - \textrm{predation losses} - \textrm{internal losses} \\
+  \frac{dB_i}{dt} &amp;= g_iB_i + \epsilon A_{ij} B_iB_j - A_{ki} B_iB_k - D_iB_i^2
+\end{align}`
 
+&lt;br&gt;
+
+.pull-left[
+- B biomass
+- g&lt;sub&gt;i&lt;/sub&gt; net growth rate
+- A&lt;sub&gt;ij&lt;/sub&gt; interaction matrix
+- *ϵ* conversion efficiency
+- D&lt;sub&gt;i&lt;/sub&gt; self regulation]
+
+.pull-right[
+![:scale 60%](images/model2.svg)
+]
 
 ---
-# `Gifffer`
+# Activation energy = thermal sensitivity
 
-&gt; [Gifffer](https://github.com/krasimir/gifffer) prevents the autoplaying of the animated Gifs
+.pull-left[.center[![:scale 90%](images/BAfunction.png)]]
 
-Instead of adding a gif with the same syntax of an image (which plays automatically), you can use the `giffer` JS macro:
+.pull-right[
+&lt;br&gt;&lt;br&gt;
 
+`\(\huge b_i = b_{0_i}e^{-E_i/kT}\)`
 
-```markdown
-![:giffer 80%](images/RCP6_enrich.gif)
-```
+&lt;br&gt;&lt;br&gt;
 
-Where `80%` is the width of the gif
+* b&lt;sub&gt;0&lt;/sub&gt;, k constants
+* T temperature
+* **E activation energy**
+]
+
+.center[**How does this temperature dependence translate into trophic control?**]
+
+---
+# Measure of trophic control
+
+.center[λ describes the feedback of a trophic level on itself through its predators
+
+![:scale 80%](images/theoretical_frameworkbis.svg)]
+
+.cite[Barbier &amp; Loreau [2019]]
+
+---
+# Measure of trophic control
+
+.center[λ describes the feedback of a trophic level on itself through its predators
+
+![:scale 80%](images/theoretical_framework3.svg)]
+
+.cite[Barbier &amp; Loreau [2019]]
+
+---
+# Temperature dependence
+
+.center[Of biological rates
+
+![:scale 80%](images/theoretical_framework.svg)]
+
+---
+# Thermal mismatches in biological rates
+
+.center[**Determine trophic control**]
+
+`\(λ = \dfrac{ϵA_{21}}{D_1D_2}\)`
+
+Activation energy :
+&lt;br&gt;
+
+`\(E_\lambda =  E_ϵ + 2(E_A-E_{D_2}) + E_{D_2} - E_{D_1}\)`
+
+.center[![:scale 40%](images/BAfunction_mismatch.png)]
+
+---
+# Database of activation energies
+
+.center[![:scale 80%](images/data_activation_energy.png)]
+
+.pull-left[
+* Various species (ectotherm)
+* Taxonomic groups
+* Habitat
+* Diet]
+
+&lt;br&gt;
+.cite[Dell et al [2011], Burnside et al [2014], Fussman et al [2014]]
+
+---
+# Temperature dependence of trophic control
 
 .center[
-  ![:giffer 80%](https://github.com/willvieira/talk_STM-BScUdeS/raw/master/images/RCP6_enrich.gif)
-]
+![](images/tpc_lambda.svg)]
+
+- Temperature increases top-down control in aquatic systems
+- No effect of temperature on terrestrial ecosystems
+- Difference between terrestrial and aquatic communities
+- General picture but large variation accross taxonomic groups
 
 ---
-# More ressources
+# To sum-up
 
-You can check the `xaringan` presentation (which this template relies on):
+.center[![:scale 70%](images/schema_temp_general_recap2.svg)]
 
-https://slides.yihui.org/xaringan/#1
+- Derive a theory describing the temperature dependence of trophic control
+- Thermal mismatches in biological rates determine trophic control
+- Temperature induces more top-down (predator) control in aquatic systems
 
-And also check all remark.js fonctionalities available in this template:
+---
+# From consumer-resource systems to food webs at large scale
 
-https://remarkjs.com/#1
+.center[![:scale 90%](images/plan_metabolic3.svg)]
 
+&lt;br&gt;
+
+.center[
+**Is there a latitudinal gradient in trophic control in fish food webs?** &lt;br&gt;
+**Is it driven by a direct effect of temperature on biological rates?**]
+
+---
+class: inverse, middle, center
+# Latitudinal variation in trophic control
+
+---
+# Latitudinal gradients
+
+
+.center[**Temperature**
+&lt;br&gt;
+
+![:scale 90%](images/world2_temperature.svg)]
+
+---
+# Other important latitudinal gradients
+
+&lt;br&gt;
+.center[
+![](images/map_expl_variables3.svg)
+
+&lt;br&gt;
+
+Which might also affect trophic control]
+
+---
+# Method
+
+.center[![:scale 80%](images/schema_data.svg)]
+&lt;br&gt;
+.cite[Albouy et al [2019], Irigoien et al [2014]]
+
+---
+# Parameterize food web models
+
+.center[![:scale 30%](images/complex_foodweb.svg)]
+
+- Temperature dependence of biological rates
+  - Same activation energy for every species
+- Self-regulation
+  - A key but still too mysterious parameter
+  - Assumptions on coexistence and stability
+  - Biomass scaling laws
+
+.center[Predictions of trophic control knowing model assumptions]
+
+---
+# Gradient in trophic control
+
+.center[
+![](images/map_metrics2.svg)]
+
+*Add schema BU vs TD on legend*
+
+---
+# Latitudinal variation
+
+.center[**in trophic control**
+
+![:scale 40%](images/variables_latitude2_defense_lambda2.svg)
+
+Food webs are more top-down regulated toward the poles]
+
+---
+# Latitudinal variation
+
+.center[**in explanatory variables**
+
+![:scale 40%](images/variables_latitude2_defense_lambda3.svg)
+
+Temperature and species richness peaks in the tropics, smaller body mass]
+
+---
+# Trophic control
+
+.center[**is mainly driven by species richness**
+
+![:scale 40%](images/variables_latitude2_defense_lambda.svg)
+
+Relative contributions of the explanatory variables]
+
+---
+# To sum-up
+
+.center[**Latitudinal variation in trophic control, driven by species richness**]
+
+.center[
+![:scale 70%](images/map_expl_variables_discu.svg)]
+
+- Species rich communities around the equator more bottom-up controlled
+- Species at high latitudes more top-down controlled (control by predator, trophic cascades, cycles)
+- Weak effect of temperature on trophic control in complex food webs
+
+---
+# To sum-up
+
+.center[**Latitudinal variation in trophic control, driven by species richness**]
+
+.center[
+![:scale 70%](images/map_expl_variables_discu.svg)]
+
+Limitations :
+
+- Limited data available
+- No variation in activation energies (but same taxonomic group)
+- Model assumptions and parameters
+
+---
+class: inverse, center, middle
+# Discussion
+
+---
+# Take-home messages
+
+.center[
+![](images/plan_metabolic_summary.svg)]
+
+1. Support for limited thermal adaptation but strong kinetic constraints
+2. Derive temperature dependance of trophic control
+   - Mainly driven by thermal mismatches in biological rates
+   - Increase in top-down control in aquatic systems
+3. Latitudinal gradient in trophic control in fish food webs
+   - Top-down control decreases with latitudes
+   - Mostly driven by species richness
+
+---
+# Latitudinal variation in trophic control
+
+.center[![:scale 50%](images/biotic_interaction_map.svg)]
+
+- Stronger top-down control at high latitudes : predator-prey cycle
+- Weaker top-down regulation (predation) in tropical species rich communities
+  - Different ways of quantifying interaction strength (pairwise or total effect)
+  - Strong effect of species richness : weak interactions are assumed to promote stability in complex systems
+
+.center[**Importance of species richness**]
+
+.cite[McCann et al [1998], Schemske et al [2009]]
+
+---
+# Indirect effect of temperature?
+
+.center[
+![:scale 70%](images/map_expl_variables_discu2.svg)
+
+**Species richness = indirect effect of temperature?**]
+&lt;br&gt;
+
+Rates of genetic divergence and speciation governed by metabolic rates? &lt;br&gt;
+
+Opposite effects of temperature :
+- direct increase in top-down control through increasing biological rates
+- indirect decrease in top-down control through increasing species richness
+
+.cite[Allen et al [2006]]
+
+---
+# Complexity of temperature effects
+
+.center[
+![:scale 70%](images/diagramOrgaLevel_anim_complex5.svg)
+
+**Important to understand the entangled effects of temperature across scales** &lt;br&gt;
+**Explain latitudinal variation in food web dynamics** &lt;br&gt;]
+
+---
+# And predict the impacts of climate change
+
+.center[![:scale 25%](images/global_warming.jpg)]
+
+- Bacteria seem to like warm weather !
+- Warming can alter trophic control but strong effects of species richness at large scale
+- Indirect effects of warming
+
+--
+&lt;br&gt;
+
+.center[**Interactive effects : global changes such as biodiversity loss**]
 
 ---
 class: inverse
@@ -525,28 +703,32 @@ class: inverse
 .pull-left1[
 &lt;br&gt;
 
-# Key message here
+.font180[Citation]
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
 
 **Special thanks to**
 
-Nice people
+- You for listening
+- My supervisors Dominique and Michel
+- Jury members : Sophie, Marco and John P. Delong
+- Committee members : Marco and Arnaud
+- Amazing collaborators : Matthieu, Yuval, Nuria, Arnaud, Stéphanie
+- Lab mates in Sherbrooke and Moulis
+- Will and Steve for hosting me during my stay!
+- Housemates, friends and family
 ]
 
 .pull-right1[
 &lt;br&gt;
-![:scale 90%](images/logo.png)
+![:scale 200%](images/logo.png)
 ]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script src="conf/js/gifffer.min.js"></script>
 <script src="conf/js/style-macros.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "solarized-light",
-"highlightLines": true
-});
+<script>var slideshow = remark.create();
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
@@ -611,24 +793,7 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
       links[i].target = '_blank';
     }
   }
-})();
-// adds .remark-code-has-line-highlighted class to <pre> parent elements
-// of code chunks containing highlighted lines with class .remark-code-line-highlighted
-(function(d) {
-  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
-  const preParents = [];
-  const findPreParent = function(line, p = 0) {
-    if (p > 1) return null; // traverse up no further than grandparent
-    const el = line.parentElement;
-    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
-  };
-
-  for (let line of hlines) {
-    let pre = findPreParent(line);
-    if (pre && !preParents.includes(pre)) preParents.push(pre);
-  }
-  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
-})(document);</script>
+})();</script>
 
 <script>
 slideshow._releaseMath = function(el) {
