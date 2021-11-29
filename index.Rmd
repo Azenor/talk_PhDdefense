@@ -162,7 +162,7 @@ Trophic control]
 
 .center[![](images/plan_metabolic_gradient_adaptation_var1bis.svg)]
 
-.center[**Allometric scaling of ecological processes**]
+.center[**Metabolism controls higher orders ecological processes : allometric scaling**]
 
 .cite[Gillooly et al [2001], Brown et al [2004]]
 
@@ -189,20 +189,8 @@ Can allometric scaling alone explain the large scale variation in trophic contro
 .center[![](images/plan_metabolic.svg)]
 
 <br>
-
-1. Thermal adaptation of growth rate in wild bacterial strains
-
----
-# What's on the menu?
-
-<br>
-
-.center[![](images/plan_metabolic.svg)]
-
-<br>
-
-1. Thermal adaptation of growth rate in wild bacterial strains
-2. Theory on the temperature dependence of trophic control
+1. Are evolutionary processes important in determing the thermal dependence of biological rates?
+    - Thermal adaptation of growth rate in wild bacterial strains
 
 ---
 # What's on the menu?
@@ -213,9 +201,26 @@ Can allometric scaling alone explain the large scale variation in trophic contro
 
 <br>
 
-1. Thermal adaptation of growth rate in wild bacterial strains
-2. Theory on the temperature dependence of trophic control
-3. Drivers of latitudinal gradient in trophic control in fish food webs
+1. Are evolutionary processes important in determing the thermal dependence of biological rates?
+    - Thermal adaptation of growth rate in wild bacterial strains
+2. What is the temperture dependence of trophic control for a pair of consumer-resource?
+   - Theory on the temperature dependence of trophic control
+
+---
+# What's on the menu?
+
+<br>
+
+.center[![](images/plan_metabolic.svg)]
+
+<br>
+
+1. Are evolutionary processes important in determining the thermal dependence of biological rates?
+    - **Thermal adaptation of growth rate in wild bacterial strains**
+2. What is the temperature dependence of trophic control for a pair of consumer-resource?
+   - **Theory on the temperature dependence of trophic control**
+3. Is there a latitudinal gradient in trophic control and what are its drivers ?
+   - **Trophic control in fish food webs at large scales**
 
 ---
 class: inverse, middle, center
@@ -230,10 +235,10 @@ class: inverse, middle, center
 For ectothermic organisms
 <br>
 
-How does this relationship vary under thermal adaptation ?]
+How does this relationship vary under thermal adaptation?]
 
 ---
-# Local adaptation
+# Evolutionary processes : local adaptation
 
 .center[![:scale 70%](images/biological_rate_tpc2.svg)
 
@@ -313,10 +318,31 @@ How does this relationship vary under thermal adaptation ?]
 Support for :
 
 - Limited local adaptation
-- Allometric scaling of growth rate
+- Metabolic theory : allometric scaling of growth rate
 
 <br>
-.center[Suggesting strong kinetics constraints on biological rates : assumption of a fixed relationship between temperature and biological rates across latitudes (macroecology).]
+But :
+
+- One experiment
+- Bacteria
+
+.cite[Allen et al [2002], Gilloly et al [2007]]
+
+---
+# To sum-up : Hotter is better!
+
+.center[
+![:scale 70%](images/bact_result.svg)]
+
+<br>
+
+Support for :
+
+- Limited local adaptation
+- Metabolic theory : allometric scaling of growth rate
+
+<br>
+.center[Suggesting strong kinetics constraints on biological rates : assumption of a fixed relationship between temperature and biological rates across latitudes]
 
 .cite[Allen et al [2002], Gilloly et al [2007]]
 
@@ -560,16 +586,14 @@ Which might also affect trophic control]
 .cite[Albouy et al [2019], Irigoien et al [2014]]
 
 ---
-# Parameterize food web models
+# Parameterize complex food web models
 
-.center[![:scale 30%](images/complex_foodweb.svg)]
+.center[![:scale 25%](images/complex_foodweb.svg)]
 
 - Temperature dependence of biological rates
   - Same activation energy for every species
-- Self-regulation
-  - A key but still too mysterious parameter
-  - Assumptions on coexistence and stability
-  - Biomass scaling laws
+- Self-regulation : A key but still too mysterious parameter
+  - Estimation from assumptions on coexistence and stability and biomass scaling laws
 
 .center[Predictions of trophic control knowing model assumptions]
 
@@ -577,7 +601,9 @@ Which might also affect trophic control]
 # Gradient in trophic control
 
 .center[
-![](images/map_metrics2.svg)]
+![](images/map_metrics2.svg)
+
+**Increase in top-down control toward the poles**]
 
 *Add schema BU vs TD on legend*
 
@@ -588,7 +614,7 @@ Which might also affect trophic control]
 
 ![:scale 40%](images/variables_latitude2_defense_lambda2.svg)
 
-Food webs are more top-down regulated toward the poles]
+Increase in top-down control toward the poles]
 
 ---
 # Latitudinal variation
@@ -600,13 +626,12 @@ Food webs are more top-down regulated toward the poles]
 Temperature and species richness peaks in the tropics, smaller body mass]
 
 ---
-# Trophic control
+# Relative contributions of the explanatory variables
 
-.center[**is mainly driven by species richness**
+.center[![:scale 40%](images/variables_latitude2_defense_lambda.svg)
 
-![:scale 40%](images/variables_latitude2_defense_lambda.svg)
-
-Relative contributions of the explanatory variables]
+**Trophic control is mainly driven by species richness**
+]
 
 ---
 # To sum-up
@@ -616,8 +641,8 @@ Relative contributions of the explanatory variables]
 .center[
 ![:scale 70%](images/map_expl_variables_discu.svg)]
 
-- Species rich communities around the equator more bottom-up controlled
-- Species at high latitudes more top-down controlled (control by predator, trophic cascades, cycles)
+- Species rich food webs around the equator more bottom-up controlled
+- Food webs at high latitudes more top-down controlled (control by predator, trophic cascades, cycles)
 - Weak effect of temperature on trophic control in complex food webs
 
 ---
@@ -644,22 +669,28 @@ class: inverse, center, middle
 .center[
 ![](images/plan_metabolic_summary.svg)]
 
-1. Support for limited thermal adaptation but strong kinetic constraints
-2. Derive temperature dependance of trophic control
+<br>
+
+1. Support for limited evolutionary processes but strong kinetic constraints
+
+--
+2. Derive a theory for the temperature dependance of trophic control
    - Mainly driven by thermal mismatches in biological rates
    - Increase in top-down control in aquatic systems
+
+--
 3. Latitudinal gradient in trophic control in fish food webs
-   - Top-down control decreases with latitudes
+   - Decrease in top-down control toward the equator
    - Mostly driven by species richness
 
 ---
 # Latitudinal variation in trophic control
 
-.center[![:scale 50%](images/biotic_interaction_map.svg)]
+.center[![:scale 45%](images/biotic_interaction_map.svg)]
 
 - Stronger top-down control at high latitudes : predator-prey cycle
-- Weaker top-down regulation (predation) in tropical species rich communities
-  - Different ways of quantifying interaction strength (pairwise or total effect)
+- Weaker top-down regulation in tropical food webs
+  - Quantifying interaction strength
   - Strong effect of species richness : weak interactions are assumed to promote stability in complex systems
 
 .center[**Importance of species richness**]
@@ -704,7 +735,7 @@ Opposite effects of temperature :
 --
 <br>
 
-.center[**Interactive effects : global changes such as biodiversity loss**]
+.center[**Changes are global : climate change but also biodiversity loss**]
 
 ---
 class: inverse
