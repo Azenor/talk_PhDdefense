@@ -184,8 +184,6 @@ Can allometric scaling alone explain the large scale variation in trophic contro
 ---
 # What's on the menu?
 
-<br>
-
 .center[![](images/plan_metabolic.svg)]
 
 <br>
@@ -194,8 +192,6 @@ Can allometric scaling alone explain the large scale variation in trophic contro
 
 ---
 # What's on the menu?
-
-<br>
 
 .center[![](images/plan_metabolic.svg)]
 
@@ -209,7 +205,6 @@ Can allometric scaling alone explain the large scale variation in trophic contro
 ---
 # What's on the menu?
 
-<br>
 
 .center[![](images/plan_metabolic.svg)]
 
