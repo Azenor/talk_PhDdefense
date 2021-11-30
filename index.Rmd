@@ -187,7 +187,7 @@ Trophic control]
 .center[![](images/plan_metabolic.svg)]
 
 <br>
-1. Thermal dependence of biological rates
+1. Temperature dependence of biological rates
     - **Thermal adaptation of growth rate in wild bacterial strains**
 
 ---
@@ -199,7 +199,7 @@ Trophic control]
 
 1. Temperature dependence of biological rates
     - **Thermal adaptation of growth rate in wild bacterial strains**
-2. Temperature dependence of trophic control for a pair of consumer-resource
+2. Temperature dependence of trophic control for pairs of consumer-resource
    - **Theory based on the temperature dependence of biological rates**
 
 ---
@@ -212,7 +212,7 @@ Trophic control]
 
 1. Temperature dependence of biological rates
     - **Thermal adaptation of growth rate in wild bacterial strains**
-2. Temperature dependence of trophic control for a pair of consumer-resource
+2. Temperature dependence of trophic control for pairs of consumer-resource
     - **Theory based on the temperature dependence of biological rates**
 3. Is there a latitudinal gradient in trophic control and what are its drivers ?
     - **Trophic control in fish food webs at large scales**
@@ -669,6 +669,7 @@ Limitations :
 
 - Limited data available
 - No variation in activation energies (but same taxonomic group)
+- Exponential vs unimodal functions
 - Model assumptions and parameters
 
 ---
@@ -773,3 +774,177 @@ the recognition of the complexity of nature"** - Charles Elton]
 <br>
 ![:scale 200%](images/logo.png)
 ]
+
+---
+class: middle, inverse, center
+# Supplementary slides
+
+---
+class: middle, inverse, center
+# Bacteria
+
+---
+# Heat maps
+
+.center[
+![:scale 85%](images/sup_slides/figure_HM.png)]
+
+---
+# TPC
+
+.center[
+![:scale 85%](images/sup_slides/tpc.png)]
+
+---
+# Difference in growth rate
+
+.center[
+![:scale 85%](images/sup_slides/local_adaptation.png)]
+
+---
+# Replicates
+
+.center[
+![:scale 85%](images/sup_slides/replicates.png)]
+
+---
+class: inverse, middle, center
+# Temperature dependence of trophic control and biomass distribution
+
+---
+# Results
+
+.center[
+![:scale 70%](images/sup_slides/figure2.png)]
+
+---
+# Results
+
+.center[
+![:scale 70%](images/sup_slides/figure4.png)]
+
+---
+# Results
+
+.center[
+![:scale 70%](images/sup_slides/figure_herbivory.png)]
+
+---
+# Results
+
+.center[
+![:scale 70%](images/sup_slides/figure5.png)]
+
+---
+class: inverse, middle, center
+# Fish food webs
+
+---
+# Self-regulation
+.font80[An important but not well known parameter]
+
+<br>
+.center[**Intraspecific density dependent regulation**
+<br>
+A population’s growth rate is negatively affected by its own population
+density]
+<br>
+Examples :
+- territoriality
+- infanticide
+- intra-guild predation
+- competition for light
+
+<br>
+.center[**Important to match stability levels observed in nature**]
+
+---
+# Estimation of species biomass
+
+.center[Self-regulation is completely unknown...<br>
+Biomass can be inferred from allometric relationship]
+
+.center[
+![:scale 60%](images/sup_slides/hatton.png)]
+.cite[Hatton et al [2019]]
+
+---
+# Method to estimate self-regulation
+
+<br>
+\begin{align}
+  \frac{dB_i}{dt} = g_iB_i + \sum_j \epsilon A_{ij} B_iB_j-\sum_k A_{ki} B_iB_k - D_iB_i^2
+\end{align}
+
+<br><br>
+.center[
+- using estimations of biological rates and biomass
+- allow coexistence
+- equilibrium]
+
+<br><br>
+
+.center[**Simulate the dynamics of communities and measure some dynamical properties**]
+
+---
+# Metrics of community dynamics
+
+<br><br>
+
+**Variability :  temporal biomass variance in response to stochastic pertubations (community average)**
+
+\begin{align}
+  \mathcal{V} = tr(C)
+\end{align}
+$C$ covariance matrix, solution of the Lyapunov equation $JC+CJ^T = \mathbb I$ with $J$ Jacobian matrix
+
+.cite[Arnoldi et al [2019]]
+
+---
+# Measures of community dynamics
+
+<br><br>
+
+**Collectivity :  importance of indirect interactions (collectivity = 1, a change in species abundance affect other species far in the network)**
+
+\begin{align}
+  \phi = \rho(M_{ij}) = \max_i|\lambda_i(M)|
+\end{align}
+
+spectral radius of $M_{ij} = A_{ij}/D_i$, $\lambda_i(M)$ is the ith eigenvalue of matrix $M$
+
+.cite[Arnoldi et al [in prep]]
+
+---
+# Simulate warming
+
+<br><br>
+
+- Direct effect of warming on species biological rates
+- Compute the relative change in community metrics
+
+\begin{align}
+  \Delta(x) = \textrm{log}_{10}(x_{warm}) - \textrm{log}_{10}(x) \approx (x_{warm} - x)/x
+\end{align}
+
+
+---
+class: inverse, middle, center
+# Results
+
+---
+# Latitudinal variation
+
+<br>
+.center[![:scale 80%](images/sup_slides/variables_latitudes2.png)]
+
+---
+# Moderate effect on community properties
+
+<br>
+.center[![](images/sup_slides/figure_metric_change_noTSR.svg)]
+
+---
+# Stronger effect at the species level
+
+.center[![:scale 70%](images/sup_slides/figure_biomass_change_noTSR.png)]
