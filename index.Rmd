@@ -187,7 +187,7 @@ Trophic control]
 .center[![](images/plan_metabolic.svg)]
 
 <br>
-1. Are evolutionary processes important in determing the thermal dependence of biological rates?
+1. Are evolutionary processes important in determining the thermal dependence of biological rates?
     - **Thermal adaptation of growth rate in wild bacterial strains**
 
 ---
@@ -197,9 +197,9 @@ Trophic control]
 
 <br>
 
-1. Are evolutionary processes important in determing the thermal dependence of biological rates?
+1. Are evolutionary processes important in determining the thermal dependence of biological rates?
     - **Thermal adaptation of growth rate in wild bacterial strains**
-2. What is the temperture dependence of trophic control for a pair of consumer-resource?
+2. What is the temperature dependence of trophic control for a pair of consumer-resource?
    - **Theory on the temperature dependence of trophic control**
 
 ---
@@ -627,18 +627,21 @@ Which might also affect trophic control]
 # Latitudinal variation
 
 .center[![:scale 45%](images/variables_latitude2_defense_lambda2.svg)
+
 Increase in top-down control toward the poles]
 
 ---
 # Latitudinal variation
 
 .center[![:scale 45%](images/variables_latitude2_defense_lambda3.svg)
+
 Temperature and species richness peaks in the tropics, smaller body mass]
 
 ---
 # Relative contributions
 
 .center[![:scale 45%](images/variables_latitude2_defense_lambda.svg)
+
 **Trophic control is mainly driven by species richness**
 ]
 
